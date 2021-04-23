@@ -1,0 +1,14 @@
+{
+  "name": "rotate-backups-demo",
+  "version": "1.0.0",
+  "description": "Creates some timestamp files in data so you can test python rotate-backups against them",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf data; mkdir data; node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rotate-backups": "rotate-backups --hourly 24 --daily 7 --weekly 4 --monthly 12 --yearly always data"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

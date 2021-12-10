@@ -6,7 +6,7 @@
   "scripts": {
     "start": "rm -rf data; mkdir data; node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rotate-backups": "rotate-backups --hourly 24 --daily 7 --weekly 4 --monthly 12 --yearly always data"
+    "rotate-backups": "rotate-backups --daily 7 --monthly 4 --yearly 2 data"
   },
   "keywords": [],
   "author": "",
